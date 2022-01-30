@@ -1,32 +1,35 @@
 import React from 'react';
 
+import Footer from '../../Partials/Footer/Footer';
+
 import Header from '../../Partials/Header/Header';
 import MobileHeader from '../../Partials/Header/MobileHeader';
-import Banner from './Banner'
-import CategorySlider from './CategorySlider';
 
 
-import OurAchievement from './OurAchievement/OurAchievement';
+import HeroBanner from './HeroBanner';
+import CourseCategory from './CourseCategory';
+import PopularCourses from './PopularCourses';
+import TopInstructors from './TopInstructors';
+import OurAchievement from './OurAchievement';
 
-import PopularCourses from './PopularCourses/PopularCourses';
-import TopInstructors from './TopInstructors/TopInstructors';
+
 
 
 
 const Home = () => {
   return (<>
-
         <div className="Desktop">
           <Header />
         </div>
         <div className="Mobile">
           <MobileHeader />
         </div>
-        <Banner/>
-        <CategorySlider/>
-        <PopularCourses/>
-        <TopInstructors/> 
-        <OurAchievement/>
+          <HeroBanner/>
+          <CourseCategory/>
+          <PopularCourses/>
+          <TopInstructors/>
+          <OurAchievement/>
+          <Footer/>
   </>);
 };
 
