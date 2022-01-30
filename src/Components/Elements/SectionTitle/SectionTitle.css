@@ -1,0 +1,11 @@
+.sectionTitle{
+    font-size: 38px;
+    text-align: center;
+    color: blanchedalmond;
+    background: #0D3D80;
+    box-shadow: 4px 4px 4px #F59A26, inset 4px 4px 4px #1754A9, inset -4px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 5px 20px 8px 20px;
+    
+    /* padding: 5px 40px; */
+}

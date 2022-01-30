@@ -1,0 +1,19 @@
+.topInstructor{
+    text-align: content;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: var(--primary-theme-font);
+}
+.top{
+    color:var(--common-text-color);
+}
+
+.topInstructorsBackground{
+    text-align: center;
+    background: #FAF9F9;
+    border-radius: 52px;
+    padding: 25px 0px 25px 0px;
+}
