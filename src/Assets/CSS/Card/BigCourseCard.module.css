@@ -17,7 +17,7 @@
 .courseTitle{
     font-weight: bold;
     font-size: 33px;
-    line-height: 39px;
+    line-height: 50px;
     text-transform: capitalize;
     color: var(--secondary-text-color);
 }

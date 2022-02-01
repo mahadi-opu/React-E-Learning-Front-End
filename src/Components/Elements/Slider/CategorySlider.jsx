@@ -3,13 +3,13 @@ import Slider from "react-slick";
 import CategoryCard from '../../Elements/Card/CategoryCard';
 
 
-import one from '../../../Assets/Images/CategorySlider/1Amar-Skill-Icon1 1.png';
-import two from '../../../Assets/Images/CategorySlider/1Amar-Skill-Icon1 1.png';
-import three from '../../../Assets/Images/CategorySlider/Amar-Skill-Icon3 1.png';
-import four from '../../../Assets/Images/CategorySlider/Amar-Skill-Icon4 1.png';
-import five from '../../../Assets/Images/CategorySlider/Amar-Skill-Icon3 1.png';
-import six from '../../../Assets/Images/CategorySlider/1Amar-Skill-Icon1 1.png';
-import seven from '../../../Assets/Images/CategorySlider/1Amar-Skill-Icon1 1.png';
+import one from '../../../Assets/Images/Category-Slider/1Amar-Skill-Icon1 1.png';
+import two from '../../../Assets/Images/Category-Slider/1Amar-Skill-Icon1 1.png';
+import three from '../../../Assets/Images/Category-Slider/Amar-Skill-Icon3 1.png';
+import four from '../../../Assets/Images/Category-Slider/Amar-Skill-Icon4 1.png';
+import five from '../../../Assets/Images/Category-Slider/Amar-Skill-Icon3 1.png';
+import six from '../../../Assets/Images/Category-Slider/1Amar-Skill-Icon1 1.png';
+import seven from '../../../Assets/Images/Category-Slider/1Amar-Skill-Icon1 1.png';
 
 
 const CategorySlider = () => {

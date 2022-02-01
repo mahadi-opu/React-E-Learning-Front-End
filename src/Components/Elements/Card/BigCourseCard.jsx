@@ -4,8 +4,9 @@ import styles from '../../../Assets/CSS/Card/BigCourseCard.module.css';
 import { AiFillHeart , AiOutlineShoppingCart } from 'react-icons/ai';
 import { BsFillShareFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-
 import courseDefaultThumbnail from '../../../Assets/Images/Courses/defultthumbnail.jpg';
+import BuyNowBtnBig from '../Button/BuyNowBtnBig';
+
 
 
 const BigCourseCard = (props) => {
@@ -51,7 +52,10 @@ const BigCourseCard = (props) => {
                     <Card.Text className={styles.courseTitle}> {courseTitle} </Card.Text>
                     <div className='d-flex justify-content-between align-items-center border-top pt-4'>
                         <Card.Title className={styles.coursePrice}>{priceCurrency()}</Card.Title>
-                        
+                        <BuyNowBtnBig
+                            name="Buy Now"
+                            link='#'
+                        />
                     </div>
                 </Card.Body>
                 

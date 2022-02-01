@@ -1,3 +1,5 @@
+
+/* CustomButton CSS */
 .ButtonWrap a {  
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -10,7 +12,6 @@
     border-radius: 5px;
     padding: 10px 22px;
     text-decoration: none;
-
 }
 
 .CertificateButtonWrap a {  
@@ -26,6 +27,45 @@
     padding: 10px 22px;
     text-decoration: none;
 }
+
+
+/* BuyNow CSS */
+
+.BuyNowBtn button{
+    align-items: center;
+    color:var(--button-text-color);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), inset -2px -1px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.BuyNowBtn button a {
+    background: var(--primary-theme-color);
+    color:var(--button-text-color);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* BuyNow CSS */
+
+.BuyNowBtnBig button{
+    align-items: center;
+    color:var(--button-text-color);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), inset -2px -1px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+
+.BuyNowBtnBig button a {
+    background: var(--primary-theme-color);
+    color: var(--button-text-color);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+/* .Section Heading Button CSS */
 
 .SectionHeadingWrap {
     padding: 30px  0px;
@@ -49,6 +89,8 @@
 }
 
 
+/* Learn More Button CSS */
+
 .learnMoreBtn button{
     background: #F59A26 !important;
     color: #fff;
@@ -58,3 +100,20 @@
     padding: 10px 20px;
     text-align: center;
 } 
+.learnMoreBtn button a{
+    color: #fff;
+    text-align: center;
+} 
+/* LoadMore Button CSS */
+
+.LoadMorebtn button{
+    border: none;
+    background: #0D3D80;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), inset -2px -1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 8px 30px;
+    text-align: center;
+}
+.LoadMorebtn button a{
+    color: #fff;
+}

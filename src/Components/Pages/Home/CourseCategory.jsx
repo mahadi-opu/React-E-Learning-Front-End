@@ -5,6 +5,8 @@ import BigCourseCard from '../../Elements/Card/BigCourseCard';
 import SmallCourseCard from '../../Elements/Card/SmallCourseCard';
 import CategorySlider from '../../Elements/Slider/CategorySlider';
 import SectionHeadingBtn from '../../Elements/Button/SectionHeadingBtn';
+import LoadMore from '../../Elements/Button/LoadMore';
+
 
 
 
@@ -43,8 +45,10 @@ const CourseCategory = () => {
                             </Col>
                             <Col xs={12} sm={6} md={6}>
                                 <Row>
+                                    
                                     <Col xs={12} sm={6} md={6}> 
-                                        <SmallCourseCard
+                                       <div className={styles.RightSmallCourse}>
+                                       <SmallCourseCard
                                             money="200" 
                                             currency="TK." 
                                             btnLabel="BUY NOW" 
@@ -52,9 +56,12 @@ const CourseCategory = () => {
                                             instructor="Maruf Hossain"
                                             currencyPosition=""
                                         />
+                                       </div>
                                     </Col>
+
                                     <Col xs={12} sm={6} md={6}> 
-                                        <SmallCourseCard
+                                       <div className={styles.RightSmallCourse}>
+                                       <SmallCourseCard
                                             money="200" 
                                             currency="TK." 
                                             btnLabel="BUY NOW" 
@@ -62,29 +69,45 @@ const CourseCategory = () => {
                                             instructor="Maruf Hossain"
                                             currencyPosition=""
                                         />
+                                       </div>
                                     </Col>
+
+                                    <Col xs={12} sm={6} md={6}> 
+                                       <div className={styles.RightSmallCourse}>
+                                       <SmallCourseCard
+                                            money="200" 
+                                            currency="TK." 
+                                            btnLabel="BUY NOW" 
+                                            courseTitle={'কন্সেপ্ট অফ জাফাস্ক্রিপ্ট কোর্স জিরো টু হিরো।'}
+                                            instructor="Maruf Hossain"
+                                            currencyPosition=""
+                                        />
+                                       </div>
+                                    </Col>
+
+                                    <Col xs={12} sm={6} md={6}> 
+                                       <div className={styles.RightSmallCourse}>
+                                       <SmallCourseCard
+                                            money="200" 
+                                            currency="TK." 
+                                            btnLabel="BUY NOW" 
+                                            courseTitle={'কন্সেপ্ট অফ জাফাস্ক্রিপ্ট কোর্স জিরো টু হিরো।'}
+                                            instructor="Maruf Hossain"
+                                            currencyPosition=""
+                                        />
+                                       </div>
+                                    </Col>
+
                                 </Row>
 
                                 <Row>
-                                    <Col xs={12} sm={6} md={6}> 
-                                        <SmallCourseCard
-                                            money="200" 
-                                            currency="TK." 
-                                            btnLabel="BUY NOW" 
-                                            courseTitle={'কন্সেপ্ট অফ জাফাস্ক্রিপ্ট কোর্স জিরো টু হিরো।'}
-                                            instructor="Maruf Hossain"
-                                            currencyPosition=""
-                                        />
-                                    </Col>
-                                    <Col xs={12} sm={6} md={6}> 
-                                        <SmallCourseCard
-                                            money="200" 
-                                            currency="TK." 
-                                            btnLabel="BUY NOW" 
-                                            courseTitle={'কন্সেপ্ট অফ জাফাস্ক্রিপ্ট কোর্স জিরো টু হিরো।'}
-                                            instructor="Maruf Hossain"
-                                            currencyPosition=""
-                                        />
+                                    <Col>
+                                       <div className={styles.LoadMoreButton}>
+                                            <LoadMore
+                                                name="Load More"
+                                                Customurl="#"
+                                            />
+                                       </div>
                                     </Col>
                                 </Row>
                             </Col>

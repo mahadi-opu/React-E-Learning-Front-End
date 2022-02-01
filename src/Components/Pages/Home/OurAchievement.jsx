@@ -8,8 +8,11 @@ import { FaChalkboardTeacher, FaUserGraduate } from 'react-icons/fa';
 
 const OurAchievement = () => {
     return (
-        <div>
+        
             <Container>
+
+                <div className={styles.topBgCircel}></div>
+
                 <div className={styles.ourAchievementBackground}>
                     <Row className='my-3 align-items-center'>
                         <Col xs={12} sm={12} md={12}>
@@ -22,7 +25,7 @@ const OurAchievement = () => {
                                 <div className={styles.userIcon}>
                                     <HiUserGroup/>
                                 </div>
-                                <div className='user'>
+                                <div className={styles.user}>
                                     <h2>243</h2>
                                     <h3>Users</h3>
                                 </div>
@@ -31,15 +34,15 @@ const OurAchievement = () => {
                         <Col xs={12} sm={12} md={8}>
                             <Row className='my-5'>
                                 <Col xs={12} sm={12} md={6}>
-                                   <div className='d-flex'>
-                                        <div className={styles.instructorIcon}>
-                                            <FaChalkboardTeacher/>
-                                        </div>
-                                        <div className={styles.instructor}>
-                                            <h2>08</h2>
-                                            <h3>iNSTRUCTOR</h3>
-                                        </div>
-                                   </div>
+                                    <div className='d-flex'>
+                                            <div className={styles.instructorIcon}>
+                                                <FaChalkboardTeacher/>
+                                            </div>
+                                            <div className={styles.instructor}>
+                                                <h2>08</h2>
+                                                <h3>iNSTRUCTOR</h3>
+                                            </div>
+                                    </div>
                                 </Col>
                                 <Col xs={12} sm={12} md={6}>
                                     <div className='d-flex'>
@@ -75,14 +78,15 @@ const OurAchievement = () => {
                                             <h2>1012</h2>
                                             <h3>ENROLMENT</h3>
                                         </div>
-                                   </div>
+                                </div>
                                 </Col>
                             </Row>
                         </Col>
                     </Row>
                 </div>
-            </Container>
-        </div>
+                
+                <div className={styles.leftBgCarcel}></div>
+            </Container>    
     );
 };
 

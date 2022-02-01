@@ -1,58 +1,45 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Card } from 'react-bootstrap';
-import './InstructorCard.css';
-import { AiFillYoutube } from 'react-icons/ai';
-import { GrLinkedinOption } from 'react-icons/gr';
-import { FaFacebookF } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import instructor_maruf from './../../../Assets/Images/instructor/instructor_maruf.png';
-import InsCardButton from '../InsCardButton/InsCardButton';
+import React from 'react';
+import styles from '../../../Assets/CSS/Card/InstructorCard.module.css';
+import {FaFacebookF} from 'react-icons/fa';
+import {GrLinkedinOption} from 'react-icons/gr';
+import {BsYoutube} from 'react-icons/bs';
 
 
-const InstructorCard = (props) => {
-
-    const { 
-        instructor,
-        instructordesignation,
-        instructorcareer,
-        thumbnail 
-    } = props;
-
-  
-    const thumbNailImage = () => {
-        return thumbnail ? thumbnail : instructor_maruf;
-    }
-
+const InstructorCard = ({images, name, title, company, fb, linkedin, youtube, more_name, more_link}) => {
     return (
-        <div> 
-            <Card style={{ width: '100%'}} className='courseCard shadow'>
-                <Card.Img className='instructorThumbnail' draggable="false" variant="top" src={thumbNailImage()} alt='Picture'/>
+        <>
+            <div className={styles.InstructorCardContainer}>
 
-                <Card.Body>
-                    <div className='text-center'>
-                        <Card.Title className='instructorName'>{instructor}</Card.Title>
-                        <Card.Text className='instructordesignation'> {instructordesignation} </Card.Text>
-                        <Card.Text className='instructorCareer'> {instructorcareer} </Card.Text>
-                    </div>  
-                    
-                    <div className='d-flex justify-content-between align-items-center border-top pt-3'>
-                        
-                        <div className='instructorSocialMedia'> 
-                                <Link to=''> <FaFacebookF/> </Link>
-                                <Link to=''> <GrLinkedinOption/> </Link>
-                                <Link to=''> <AiFillYoutube/> </Link>
+                <div className={styles.InstructorImage}>
+                    <img src={images} alt="Amar Skill" />
+                </div>
+
+                <div className={styles.InstructorInfo}>
+                    <h2>{name}</h2>
+                    <p>{title}</p>
+                    <p>{company}</p>
+                </div>
+
+                <div className={styles.InstructorSocialInfo}>
+                    <div className={styles.InstructorSocialIcon}>
+                        <div className={styles.InstructorSocial}>
+                            <a href={fb}><FaFacebookF /></a>
                         </div>
-
-                        <div>
-                            <InsCardButton
-                                btnLabel="More Info"  
-                            />
+                        <div className={styles.InstructorSocial}>
+                            <a href={linkedin}><GrLinkedinOption /></a>
+                        </div>
+                        <div className={styles.InstructorSocial}>
+                            <a href={youtube}><BsYoutube /></a>
                         </div>
                     </div>
-                </Card.Body>
-                
-            </Card>
-        </div>
+                    <div className={styles.InstructorMoreInfo}>
+                        <a href={more_link}>{more_name}</a>
+                    </div>
+                </div>
+
+            </div>
+        </>
     );
 };
 

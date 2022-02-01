@@ -4,9 +4,10 @@ import styles from '../../../Assets/CSS/Card/SmallCourseCard.module.css';
 import { AiFillHeart , AiOutlineShoppingCart } from 'react-icons/ai';
 import { BsFillShareFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-
-
+import BuyNow from '../Button/BuyNow';
 import courseDefaultThumbnail from './../../../Assets/Images/Courses/defultthumbnail.jpg';
+
+
 
 
 const SmallCourseCard = (props) => {
@@ -38,7 +39,7 @@ const SmallCourseCard = (props) => {
     return (
         <div> 
             <Card style={{ width: '100%'}} className={styles.courseCard}>
-                <Card.Img className='courseThumbNail' draggable="false" variant="top" src={thumbNailImage()} alt='Picture'/>
+                <Card.Img className={styles.courseThumbNail} draggable="false" variant="top" src={thumbNailImage()} alt='Picture'/>
 
                 <Card.Body>
                     <div className='d-flex justify-content-between'>
@@ -52,10 +53,12 @@ const SmallCourseCard = (props) => {
                     <Card.Text className={styles.courseTitleSmallCard}> {courseTitle} </Card.Text>
                     <div className='d-flex justify-content-between align-items-center border-top pt-3'>
                         <Card.Title className={styles.coursePriceSmallCard}>{priceCurrency()}</Card.Title>
-                        
+                        <BuyNow
+                            name="Buy Now"
+                            link="#"
+                        />
                     </div>
                 </Card.Body>
-                
             </Card>
         </div>
     );
