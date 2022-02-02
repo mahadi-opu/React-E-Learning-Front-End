@@ -14,30 +14,30 @@ const InstructorCard = ({images, name, title, company, fb, linkedin, youtube, mo
                 <div className={styles.InstructorImage}>
                     <img src={images} alt="Amar Skill" />
                 </div>
+                <div className={styles.InstructorCard}>
+                    <div className={styles.InstructorInfo}>
+                        <h2>{name}</h2>
+                        <p>{title}</p>
+                        <p>{company}</p>
+                    </div>
 
-                <div className={styles.InstructorInfo}>
-                    <h2>{name}</h2>
-                    <p>{title}</p>
-                    <p>{company}</p>
-                </div>
-
-                <div className={styles.InstructorSocialInfo}>
-                    <div className={styles.InstructorSocialIcon}>
-                        <div className={styles.InstructorSocial}>
-                            <a href={fb}><FaFacebookF /></a>
+                    <div className={styles.InstructorSocialInfo}>
+                        <div className={styles.InstructorSocialIcon}>
+                            <div className={styles.InstructorSocial}>
+                                <a href={fb}><FaFacebookF /></a>
+                            </div>
+                            <div className={styles.InstructorSocial}>
+                                <a href={linkedin}><GrLinkedinOption /></a>
+                            </div>
+                            <div className={styles.InstructorSocial}>
+                                <a href={youtube}><BsYoutube /></a>
+                            </div>
                         </div>
-                        <div className={styles.InstructorSocial}>
-                            <a href={linkedin}><GrLinkedinOption /></a>
-                        </div>
-                        <div className={styles.InstructorSocial}>
-                            <a href={youtube}><BsYoutube /></a>
+                        <div className={styles.InstructorMoreInfo}>
+                            <a href={more_link}>{more_name}</a>
                         </div>
                     </div>
-                    <div className={styles.InstructorMoreInfo}>
-                        <a href={more_link}>{more_name}</a>
-                    </div>
                 </div>
-
             </div>
         </>
     );

@@ -1,15 +1,22 @@
 import './App.css';
 import '../src/Assets/CSS/Partials/Responsive.css';
-import Home from './Components/Pages/Home/Home';
+import routes from './Components/Routes/Routes';
+import { Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-        <div>
-          <Home/>
-        </div>
+        <Routes> 
+          {
+            routes.map((route,index) => {
+                const {path, element, isPrivate} = route;
+                return ( isPrivate ? '' : <Route key={index} path={path} element={element} />);
+            })
+          }
+        </Routes> 
     </div>
   );
 }
 
-export default App;
+export default App; 

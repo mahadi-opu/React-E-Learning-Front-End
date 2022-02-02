@@ -8,15 +8,16 @@ import { FaChalkboardTeacher, FaUserGraduate } from 'react-icons/fa';
 
 const OurAchievement = () => {
     return (
-        
+        <Container fluid={true}>
+            <div className={styles.topBgCircel}></div>
             <Container>
-
-                <div className={styles.topBgCircel}></div>
-
                 <div className={styles.ourAchievementBackground}>
-                    <Row className='my-3 align-items-center'>
+                    <Row className='d-flex align-items-center'>
                         <Col xs={12} sm={12} md={12}>
-                            <h2 className={styles.ourAchievement}> Our Achievement</h2>
+                            <div className={styles.ourAchievement}>
+                                <h2> Our Achievement</h2>
+                            </div>
+                            
                         </Col>
                     </Row>
                     <Row className='d-flex align-items-center'>
@@ -32,9 +33,9 @@ const OurAchievement = () => {
                             </div>
                         </Col>
                         <Col xs={12} sm={12} md={8}>
-                            <Row className='my-5'>
+                            <Row>
                                 <Col xs={12} sm={12} md={6}>
-                                    <div className='d-flex'>
+                                    <div className={styles.instructorRawp}>
                                             <div className={styles.instructorIcon}>
                                                 <FaChalkboardTeacher/>
                                             </div>
@@ -45,7 +46,7 @@ const OurAchievement = () => {
                                     </div>
                                 </Col>
                                 <Col xs={12} sm={12} md={6}>
-                                    <div className='d-flex'>
+                                    <div className={styles.instructorRawp}>
                                             <div className={styles.instructorIcon}>
                                                 <FaChalkboardTeacher/>
                                             </div>
@@ -57,9 +58,9 @@ const OurAchievement = () => {
                                 </Col>
                             </Row>
 
-                            <Row className='my-5'>
+                            <Row>
                                 <Col xs={12} sm={12} md={6}>
-                                    <div className='d-flex'>
+                                    <div className={styles.instructorRawp}>
                                             <div className={styles.instructorIcon}>
                                                 <FaUserGraduate/>
                                             </div>
@@ -70,7 +71,7 @@ const OurAchievement = () => {
                                     </div>
                                 </Col>
                                 <Col xs={12} sm={12} md={6}>
-                                    <div className='d-flex'>
+                                    <div className={styles.instructorRawp}>
                                         <div className={styles.instructorIcon}>
                                             <FaChalkboardTeacher/>
                                         </div>
@@ -85,8 +86,9 @@ const OurAchievement = () => {
                     </Row>
                 </div>
                 
-                <div className={styles.leftBgCarcel}></div>
-            </Container>    
+            </Container>  
+            <div className={styles.leftBgCarcel}></div>  
+        </Container>
     );
 };
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import CategoryCard from '../../Elements/Card/CategoryCard';
+import styles from'../../../Assets/CSS/Slider/Slider.module.css'
 
 
 import one from '../../../Assets/Images/Category-Slider/1Amar-Skill-Icon1 1.png';
@@ -53,56 +54,56 @@ const CategorySlider = () => {
         <>
             <div>
                 <Slider {...settings}>
-                    <div>
+                    <div className={styles.cardMargin2}>
                         <CategoryCard
                             icon={one}
                             title="Web Development"
                             cat_link="#"
                         />
                     </div>
-                    <div>
+                    <div className={styles.cardMargin2}>
                         <CategoryCard
                             icon={two}
                             title="Web Development"
                             cat_link="#"
                         />
                     </div>
-                    <div>
+                    <div className={styles.cardMargin2}>
                         <CategoryCard
                             icon={three}
                             title="Web Development"
                             cat_link="#"
                         />
                     </div>
-                    <div>
+                    <div className={styles.cardMargin2}>
                         <CategoryCard
                             icon={five}
                             title="Web Development"
                             cat_link="#"
                         />
                     </div>
-                    <div>
+                    <div className={styles.cardMargin2}>
                         <CategoryCard
                             icon={three}
                             title="Web Development"
                             cat_link="#"
                         />
                     </div>
-                    <div>
+                    <div className={styles.cardMargin2}>
                         <CategoryCard
                             icon={four}
                             title="Web Development"
                             cat_link="#"
                         />
                     </div>
-                    <div>
+                    <div className={styles.cardMargin2}>
                         <CategoryCard
                             icon={six}
                             title="Web Development"
                             cat_link="#"
                         />
                     </div>
-                    <div>
+                    <div className={styles.cardMargin2}>
                         <CategoryCard
                             icon={seven}
                             title="Web Development"

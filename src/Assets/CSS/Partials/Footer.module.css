@@ -54,7 +54,6 @@
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    line-height: 32px;
     text-transform: capitalize;
     font-weight: 400;
     color: #FFFFFF;
@@ -69,7 +68,6 @@
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
-    line-height: 37px;
     text-transform: capitalize;
     color: #FFFFFF;
     border-width: 198px;
@@ -193,16 +191,41 @@
     color: #FFFFFF;
 }
 
+ /* Responsive style include here */
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 667px){ 
+   
     .FooterContainer {
         background-color: #002E6C;
-        color: #fff;
-        padding-left: 20px;
+        color: #fff;  
+    }
+    .FooterTopMenu ul {
+       display: flex;
+       flex-direction: column;
     }
     .PaymentIconImage img {
         width: 90%;
         height: 30px;
         margin-left: -15px;
     }
+    .CertifcateButton{
+        text-align: center;
+    }
+    .FooterLogo{
+        text-align: center;
+    }
+    .FooterAboutContent p {
+        text-align:justify;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .FooterWizardTitle h2 {
+        font-size: 18px;
+        margin-left: 0px; 
+    }
+    .FooterTopMenu {
+        display: none;
+    }
 }
+
+

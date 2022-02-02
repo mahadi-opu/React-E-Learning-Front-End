@@ -12,9 +12,11 @@ const TopInstructors = () => {
             <div className={`${styles.topInstructorsBG} ${styles.description} my-4`}>
                 <Container>
                     <div className={styles.topInstructorsBackground}>
-                        <Row className='my-5'>
+                        <Row>
                             <Col xs={12} sm={12} md={12}>
-                                <h2 className={styles.topInstructor}> <span className={styles.top}>Top </span>Instructor</h2>
+                                <div className={styles.topInstructor}>
+                                    <h2> <span className={styles.top}>Top </span>Instructor</h2>
+                                </div>
                             </Col>
                         </Row>
                         <Row>

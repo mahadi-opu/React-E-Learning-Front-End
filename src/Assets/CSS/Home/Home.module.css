@@ -46,7 +46,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.topInstructor{
+.topInstructorsBackground{
+    text-align: center;
+    background: #FAF9F9;
+    border-radius: 52px;
+    padding: 25px 0px 25px 0px;
+}
+.topInstructor h2{
     text-align: content;
     font-weight: bold;
     font-size: 45px;
@@ -57,13 +63,6 @@
 }
 .top{
     color:var(--common-text-color);
-}
-
-.topInstructorsBackground{
-    text-align: center;
-    background: #FAF9F9;
-    border-radius: 52px;
-    padding: 25px 0px 25px 0px;
 }
 
  /* OurAchievement Section */
@@ -79,30 +78,30 @@
     transform: rotate(-180deg);
 }
 
-.leftBgCarcel {
+
+.leftBgCarcel{
     position: absolute;
     width: 280px;
     height: 200px;
     background: #E0F1FF;
     border-radius: 29px;
     z-index: -1;
-    margin-top: -350px;
-    left: 50px;
+    margin-top: -250px;
+    left: 70px;
 }
-
-
  .ourAchievementBackground{
     text-align: center;
     padding: 25px 0px 25px 0px;
     background: #FFFFFF;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 34px;
-    margin: 200px 0px;
+    margin: 100px 0px;
     position: relative;
 }
-.ourAchievement{
+.ourAchievement h2{
     font-weight: normal;
     font-size: 48px;
+    margin: 20px 0px;
     text-transform: uppercase;
     color: #9B9A9A;
     font-family: var(--roboto-font);
@@ -128,7 +127,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 93px;
-    line-height: 109px;
     text-transform: capitalize;
     color: #0D3D80;
     margin: 0;
@@ -138,10 +136,14 @@
     font-style: normal;
     font-weight: bold;
     font-size: 51px;
-    line-height: 60px;
     text-transform: capitalize;
     color: #CBCBCB;
     padding-right: 20px;
+}
+.instructorRawp{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 .instructorIcon{
     display: inline-flex;
@@ -164,7 +166,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 72px;
-    line-height: 84px;
     text-transform: capitalize;
     color: #0D3D80;
     margin: 0;
@@ -174,7 +175,6 @@
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 30px;
     text-transform: capitalize;
     color: #CBCBCB;
 }
@@ -204,4 +204,67 @@
         line-height: 39px !important;
         text-shadow: 0px -4px 4px rgba(248, 248, 248, 0.25), 4px 4px 6px rgba(0, 0, 0, 0.25);
     }
+    .topInstructor h2{
+        font-weight: bold;
+        font-size: 24px;
+    }
+   
+    .ourAchievementBackground {
+        text-align: center;
+        margin: 80px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    .ourAchievement h2{ 
+        font-size: 24px !important;
+        margin: 24px 0px;
+        font-weight: 400;
+    }
+    .userIcon{
+        font-size: 50px;
+        color: #5FC2AA;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    }
+    .user h2{
+        font-weight: 500;
+        font-size: 43px;
+        margin: 10px 0px;
+    }
+    .user h3{
+        font-size: 31px;
+        padding-right: 0px;
+        margin: 10px 0px;
+
+    }
+    .instructorRawp{
+        display: flex;
+        align-items: center;
+        margin: 20px 30px;
+    }
+    .instructor{
+        text-align: left;
+        margin-left: 25px
+    }
+    .instructor h2{
+        font-weight: 500;
+        font-size: 32px;
+        padding: 10px 0px;
+    }
+    .instructor h3{
+        font-weight: bold;
+        font-size: 18px;
+    }
+   
+    .leftBgCarcel {
+        position: absolute;
+        width: 180px;
+        height: 130px;
+        background: #E0F1FF;
+        border-radius: 29px;
+        z-index: -1;
+        margin-top: -180px;
+        left: 3px;
+    }
+   
  }

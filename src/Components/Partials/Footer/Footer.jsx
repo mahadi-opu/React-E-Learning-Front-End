@@ -16,7 +16,6 @@ const Footer = () => {
             <Container>
                 <div className={styles.FooterContainerTop}>
                     <Row>
-
                         <Col md={8}>
                             <div className={styles.FooterTopMenu}>
                                 <ul>
@@ -38,14 +37,12 @@ const Footer = () => {
                                 />
                             </div>
                         </Col>
-
                     </Row>
                 </div>
 
 
               <div className={styles.MainFooterWrap}>
                     <Row>
-
                         <Col md={4}>
                             <div className={styles.FooterLogo}>
                                 <img src={logo} alt="" />
@@ -96,9 +93,7 @@ const Footer = () => {
                                </div>
 
                             </div>
-
                         </Col>
-
                     </Row>
 
               </div>

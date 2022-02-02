@@ -1,8 +1,12 @@
 import React, {useState} from 'react';
 import Slider from "react-slick";
 import styles from '../../../Assets/CSS/Slider/Slider.module.css';
-import two from '../../../Assets/Images/instructor/instructor_maruf.png'
+
 import InstructorCard from '../Card/InstructorCard';
+
+
+// import one from '../../Assets/images/Instructor/image 21.png'
+import two from '../../../Assets/Images/instructor/instructor_maruf.png'
 // import three from '../../Assets/images/Instructor/image 21.png'
 
 

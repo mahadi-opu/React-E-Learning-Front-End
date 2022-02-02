@@ -1,3 +1,6 @@
 .CardMargin {
     margin: 10px;
 }
+.cardMargin2{
+    margin: 20px -15px;
+}

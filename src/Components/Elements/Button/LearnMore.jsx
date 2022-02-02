@@ -5,9 +5,13 @@ import styles from '../../../Assets/CSS/Partials/Button.module.css'
 
 const LearnMore = ({name,Customurl}) => {
     return (
-        <div className={styles.learnMoreBtn}>
-            <Button><Link to={Customurl}> {name}</Link></Button>
-        </div>
+        <>
+            <div className={styles.learnMoreBtn}>
+                <Button>
+                    <Link to={Customurl}> {name} </Link>
+                </Button>
+            </div>
+        </>
     );
 };
 

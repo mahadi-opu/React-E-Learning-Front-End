@@ -42,7 +42,7 @@ const SmallCourseCard = (props) => {
                 <Card.Img className={styles.courseThumbNail} draggable="false" variant="top" src={thumbNailImage()} alt='Picture'/>
 
                 <Card.Body>
-                    <div className='d-flex justify-content-between'>
+                    <div className='d-flex justify-content-between align-item-center'>
                         <Card.Title className={styles.courseInstructorSmallCard}>{instructor}</Card.Title>
                         <Card.Title className={styles.instructorSocialSmallCard}> 
                                 <Link to=''> <AiFillHeart/> </Link>

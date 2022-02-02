@@ -12,7 +12,7 @@ const MobileMenuPopupBtn = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (
-        <div>
+        <>
             <div onClick={handleShow}  className={styles.PopupMobileMenuIcon}>
                 <BsBorderWidth />
             </div>
@@ -38,7 +38,7 @@ const MobileMenuPopupBtn = () => {
                     
                 </Offcanvas.Body>
             </Offcanvas>
-        </div>
+        </>
     );
 };
 

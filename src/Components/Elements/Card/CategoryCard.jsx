@@ -9,7 +9,6 @@ const CategoryCard = ({icon, title, cat_link }) => {
             <div className={styles.CardCetegoryWrap}>
                 <div className={styles.CategorySliderIcon}>
                     <img src={icon} alt="" />
-                
                 </div>
                 <div className={styles.CategorySliderTitle}>
                     <h2><a href={cat_link}>{title}</a></h2>

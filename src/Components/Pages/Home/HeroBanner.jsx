@@ -15,7 +15,7 @@ const HeroBanner = () => {
                     <Row>
                         <Col xs={12} sm={12} md={6} className='d-flex align-items-center'>
                             <div className={styles.bannerText}>
-                                <h1>Best E-larning Platform In Bangladesh</h1>,
+                                <h1>Best E-larning Platform In Bangladesh</h1>
                                 <LearnMore
                                     name="Learn More"
                                     Customurl="#"

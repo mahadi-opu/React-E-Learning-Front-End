@@ -8,7 +8,7 @@ import PopularSlider from '../../Elements/Slider/PopularSlider';
 
 const PopularCourses = () => {
     return (
-        <div>
+        <>
             <Container fluid={true}>
                 <div className={styles.PopularSliderBackground} >
                     <Container>
@@ -29,7 +29,7 @@ const PopularCourses = () => {
                     </Container>
                 </div>
             </Container>
-        </div>
+        </>
     );
 };
 

@@ -32,7 +32,7 @@ const CourseCategory = () => {
                             </Col>
                         </Row>
 
-                        <Row>
+                        <Row className='my-5'>
                             <Col xs={12} sm={6} md={6}>
                                 <BigCourseCard
                                     money="200" 

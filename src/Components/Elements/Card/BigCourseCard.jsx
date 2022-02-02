@@ -36,12 +36,12 @@ const BigCourseCard = (props) => {
     }
 
     return (
-        <div> 
+        <> 
             <Card style={{ width: '100%'}} className={styles.courseCard}>
                 <Card.Img className='courseThumbNail' variant="top" src={thumbNailImage()} alt='Picture'/>
 
                 <Card.Body>
-                    <div className='d-flex justify-content-between'>
+                    <div className='d-flex justify-content-between align-items-center'>
                         <Card.Title className={styles.courseInstructor}>{instructor}</Card.Title>
                         <Card.Title className={styles.instructorSocial}> 
                                 <Link to=''> <AiFillHeart/> </Link>
@@ -58,9 +58,8 @@ const BigCourseCard = (props) => {
                         />
                     </div>
                 </Card.Body>
-                
             </Card>
-        </div>
+        </>
     );
 };
 

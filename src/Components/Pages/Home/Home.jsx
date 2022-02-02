@@ -15,22 +15,23 @@ import OurAchievement from './OurAchievement';
 
 
 
-
 const Home = () => {
-  return (<>
-        <div className="Desktop">
-          <Header />
-        </div>
-        <div className="Mobile">
-          <MobileHeader />
-        </div>
-          <HeroBanner/>
-          <CourseCategory/>
-          <PopularCourses/>
-          <TopInstructors/>
-          <OurAchievement/>
-          <Footer/>
-  </>);
+  return (
+      <>
+          <div className="Desktop">
+            <Header />
+          </div>
+          <div className="Mobile">
+            <MobileHeader />
+          </div>
+            <HeroBanner/>
+            <CourseCategory/>
+            <PopularCourses/>
+            <TopInstructors/>
+            <OurAchievement/>
+            <Footer/>
+      </>
+  );
 };
 
 export default Home;
