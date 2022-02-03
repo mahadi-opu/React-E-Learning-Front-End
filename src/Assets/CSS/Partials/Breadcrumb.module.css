@@ -1,0 +1,9 @@
+.Breadcrumb{
+    background-image: url(../../Images/Bread-crumb/Bread-crumb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

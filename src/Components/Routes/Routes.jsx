@@ -18,7 +18,7 @@ const routes = [
     // },
     
     {
-        path:'/all-courses',
+        path:'/allcourses',
         element:<AllCourses />,
         isPrivate:false
     }
