@@ -7,6 +7,7 @@ const BreadCamp = () => {
         <>
             <Container fluid={true} className=' m-0 p-0 '>
                 <div className={styles.Breadcrumb}>
+                        <h2> All Courses </h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">

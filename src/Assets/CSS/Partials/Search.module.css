@@ -1,0 +1,62 @@
+.NavSearch {
+    height: 40px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #F1F1F1;
+    box-sizing: border-box;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 5px;
+    background: #F1F1F1;
+}
+
+.NavSearch input {
+    border: none;
+    width: 90%;
+    height: 40px;
+    color: #000;
+    padding-left: 10px;
+    background: #fff;
+}
+
+.NavSearch input:focus {
+    outline: none;
+}
+
+.NavSearch svg {
+    width: 20px;
+    height: 20px;
+    color: #F59A26;
+    margin-left: 8px;
+}
+
+/*-- Tag Search --*/
+
+.TagSearch {
+   display:flex;
+   justify-content: space-between;
+   border-radius: 5px;
+   border: 1px solid rgba(8, 68, 150, 0.5);
+
+}
+
+.TagSearch input {
+    border: none;
+    width: 95%;
+    height: 25px;
+    color: #000;
+    border-radius: 5px;
+    
+    
+}
+.TagSearch input:focus {
+    outline: none;
+}
+
+.TagSearch svg {
+    width: 29px;
+    height: 25px;
+    background: #83A1CB;
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px;
+} 

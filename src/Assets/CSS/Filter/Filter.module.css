@@ -1,22 +1,40 @@
 
+/* Filter Sidebar  Area */
+.Filter{
+    padding: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
 .FilterWidget{
     border-bottom: 1px solid #E3E3E3;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
 }
-
 .FilterTitle{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 30px;
 }
 .FilterTitle h2{
     font-family: Roboto;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     text-transform: capitalize;
     color: #074495;
 }
+.abcdedddddd{
+    display: flex;
+    justify-content: space-between;
+}
+.FilterEliment{
+    border: 1px salmon;
+}
 
+/* Filter Area */
+
+.FilterButtonRawp{
+    display: flex;
+    justify-content: space-between;
+}
 .FilterButton{
     background: #F59A26;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
@@ -35,7 +53,61 @@
     font-weight: 500;
 }
 
-.RattingFilter{
+/* Ratting  Area */
+
+.RattingFilterRawp{
     display: flex;
     justify-content: space-between;
 }
+.RattingFilterRawp input{
+    margin-right: 20px;
+    color: salmon;
+}
+.RattingFilterRawp label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: capitalize;
+    color: rgba(63, 68, 96, 0.65);  
+}
+.RattingFilterRawp label i{
+    font-size: 24px;
+}
+/* Price Range Indicator Area */
+
+.priceRange{
+    display: flex;
+    justify-content: space-between;
+}
+/* Tag Filter */
+.TagName label a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: capitalize;
+    margin:0px 15px;
+    color: rgba(63, 68, 96, 0.65) !important;
+}
+
+.addon .input-group-btn > .btn {
+    border-left-width:0;left:-2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  /* stop the glowing blue shadow */
+  .addon .form-control:focus {
+   box-shadow:none;
+   -webkit-box-shadow:none; 
+   border-color:#cccccc; 
+  }
+  .form-control{width:20%}
+  .navbar-nav > li > a {
+    border-right: 1px solid #ddd;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .navbar-nav:last-child{ border-right:0}

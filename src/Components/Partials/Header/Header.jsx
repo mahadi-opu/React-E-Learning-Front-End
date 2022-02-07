@@ -3,8 +3,8 @@ import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 import styles from '../../../Assets/CSS/Partials/Header.module.css';
 import Select from 'react-select'
-import { VscSearch } from 'react-icons/vsc';
 import logo from '../../../Assets/Images/logo/Amar-Skill.png';
+import Search from '../../Elements/Search/Search';
 
 const options = [
     { value: 'chocolate', label: 'Chocolate' },
@@ -33,9 +33,7 @@ const Header = () => {
                                 </Col>
 
                                 <Col md={4} sm={3}>
-                                    <div className={styles.NavSearch}>
-                                        <input type="text" /><VscSearch />
-                                    </div>
+                                    <Search/>
                                 </Col>
 
                                 <Col md={4} sm={5}>

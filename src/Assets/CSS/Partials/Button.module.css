@@ -117,6 +117,17 @@
     padding: 8px 30px;
     text-align: center;
 }
+.seeMoreBtn{
+    margin: 50px;
+   display: flex;
+   justify-content: center;
+}
+.seeMoreBtn a{
+    padding: 4px 30px;
+    background: #0B4E9E;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
 
 
 @media only screen and (min-device-width: 240px) and (max-device-width: 767px) {
