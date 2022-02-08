@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../../Assets/CSS/Filter/Filter.module.css';
-import StarRatingComponent from 'react-star-rating-component';
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 const RatingsFilter = () => {
     return (
@@ -13,10 +13,12 @@ const RatingsFilter = () => {
                         </div>
                         <div> --- </div>
                         <div>
-                            <StarRatingComponent
-                                name="5" 
-                                starCount={5}
-                            />
+                            <AiFillStar/>
+                            <AiFillStar/>
+                            <AiFillStar/>
+                            <AiFillStar/>
+                            <AiFillStar/>
+                           
                         </div>
                     </div>
                 </li>
@@ -28,10 +30,11 @@ const RatingsFilter = () => {
                         </div>
                         <div> --- </div>
                         <div>
-                            <StarRatingComponent 
-                                name="4" 
-                                starCount={5}
-                            />
+                            <AiFillStar/>
+                            <AiFillStar/>
+                            <AiFillStar/>
+                            <AiFillStar/>
+                            <AiOutlineStar/>
                         </div>
                     </div>
                 </li>
@@ -43,10 +46,11 @@ const RatingsFilter = () => {
                         </div>
                         <div> --- </div>
                         <div>
-                            <StarRatingComponent 
-                                name="3" 
-                                starCount={5}
-                            />
+                            <AiFillStar/>
+                            <AiFillStar/>
+                            <AiFillStar/>
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
                         </div>
                     </div>
                 </li>
@@ -58,10 +62,11 @@ const RatingsFilter = () => {
                         </div>
                         <div> --- </div>
                         <div>
-                            <StarRatingComponent 
-                                name="2" 
-                                starCount={5}
-                            />
+                            <AiFillStar/>
+                            <AiFillStar/>
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
                         </div>
                     </div>
                 </li>
@@ -73,10 +78,11 @@ const RatingsFilter = () => {
                         </div>
                         <div> --- </div>
                         <div>
-                            <StarRatingComponent 
-                                name="1" 
-                                starCount={5}
-                            />
+                            <AiFillStar/>
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
                         </div>
                     </div>
                 </li>

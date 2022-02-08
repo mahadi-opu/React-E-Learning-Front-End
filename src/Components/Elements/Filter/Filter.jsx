@@ -1,7 +1,6 @@
 import React from 'react';
 import { RiArrowDownSLine } from 'react-icons/ri';
 import styles from '../../../Assets/CSS/Filter/Filter.module.css'
-import ButtonFilter from './ButtonFilter';
 import RatingsFilter from './RatingsFilter';
 import TagFilter from './TagFilter';
 import InstructorFilter from './InstructorFilter';
@@ -13,12 +12,6 @@ const Filter = () => {
     return (
         <>
             <div className={styles.Filter}>
-             
-                <div className={styles.FilterWidget}>
-                    <div className={styles.FilterEliment}>
-                        <ButtonFilter/>
-                    </div>
-                </div>
 
                 <div className={styles.FilterWidget}>
                     <div className={styles.FilterTitle}>

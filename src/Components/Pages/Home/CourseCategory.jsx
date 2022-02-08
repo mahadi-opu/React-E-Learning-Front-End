@@ -97,11 +97,7 @@ const CourseCategory = () => {
                                         />
                                        </div>
                                     </Col>
-
-                                </Row>
-
-                                <Row>
-                                    <Col>
+                                    <Col xs={12} sm={6} md={12}> 
                                        <div className={styles.LoadMoreButton}>
                                             <LoadMore
                                                 name="Load More"

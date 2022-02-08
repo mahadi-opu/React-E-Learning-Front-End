@@ -1,13 +1,13 @@
 
 /* Filter Sidebar  Area */
 .Filter{
-    padding: 20px;
+    padding: 0px 20px;
     border-right: 1px solid rgba(0, 0, 0, 0.15);
 }
 .FilterWidget{
-    border-bottom: 1px solid #E3E3E3;
-    padding-bottom: 25px;
-    margin-bottom: 10px;
+    border-top: 1px solid #E3E3E3;
+    padding-top: 10px;
+    margin-top: 20px;
 }
 .FilterTitle{
     display: flex;
@@ -24,9 +24,6 @@
 .abcdedddddd{
     display: flex;
     justify-content: space-between;
-}
-.FilterEliment{
-    border: 1px salmon;
 }
 
 /* Filter Area */
@@ -72,8 +69,9 @@
     text-transform: capitalize;
     color: rgba(63, 68, 96, 0.65);  
 }
-.RattingFilterRawp label i{
-    font-size: 24px;
+.RattingFilterRawp svg{
+    font-size: 19px;
+    color: #F59A26;
 }
 /* Price Range Indicator Area */
 
@@ -92,13 +90,12 @@
     margin:0px 15px;
     color: rgba(63, 68, 96, 0.65) !important;
 }
-
 .addon .input-group-btn > .btn {
     border-left-width:0;left:-2px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   }
-  /* stop the glowing blue shadow */
+  /* stop the glowing  shadow */
   .addon .form-control:focus {
    box-shadow:none;
    -webkit-box-shadow:none; 

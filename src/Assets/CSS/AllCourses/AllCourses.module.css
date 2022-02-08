@@ -1,6 +1,11 @@
-.sideBar{
-    margin-top: 50px;
+.sideBarleft{
+    margin-top: 0px;
 }
-.sideBar2{
-    margin-top: 50px;
+
+.sideBarRight{
+    margin-top: 10px;
+}
+.filterTop{
+    margin: 0px 0px 10px 0px;
+    padding-left: 20px;
 }
