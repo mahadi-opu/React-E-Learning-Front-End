@@ -1,7 +1,8 @@
 
 import AllCourses from "../Pages/AllCourses/AllCourses";
-import CourseVideoSection from "../Pages/CourseVideo/CourseVideoSection";
+import CourseDetails from "../Pages/CourseDetails/CourseDetails";
 import Home from "../Pages/Home/Home";
+
 
 
 const routes = [
@@ -21,8 +22,8 @@ const routes = [
         isPrivate:false
     },
     {
-        path:'/coursevideo',
-        element:<CourseVideoSection />,
+        path:'/coursedetails',
+        element:<CourseDetails />,
         isPrivate:false
     }
 ];

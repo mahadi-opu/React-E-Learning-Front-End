@@ -1,12 +1,14 @@
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import 'video-react/dist/video-react.css';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
-render(
+
+ReactDOM.render(
   <BrowserRouter>
     <App />
   </BrowserRouter>,
