@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
 import { Card } from 'react-bootstrap';
 import styles from '../../../Assets/CSS/Card/BigCourseCard.module.css';
 import { AiFillHeart , AiOutlineShoppingCart } from 'react-icons/ai';

@@ -1,4 +1,4 @@
-
+import React from 'react';
 import AllCourses from "../Pages/AllCourses/AllCourses";
 import CourseDetails from "../Pages/CourseDetails/CourseDetails";
 import Home from "../Pages/Home/Home";
@@ -8,7 +8,7 @@ import Home from "../Pages/Home/Home";
 const routes = [
     {
         path: '/',
-        element: <Home/>,
+        element: <Home />,
         isPrivate: false
     },
     // {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import styles from "../../../Assets/CSS/Course/Course.module.css";
+
 const CourseContent = () => {
     return (
         <>

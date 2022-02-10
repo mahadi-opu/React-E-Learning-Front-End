@@ -22,7 +22,7 @@ const OurAchievement = () => {
                     </Row>
                     <Row className='d-flex align-items-center'>
                         <Col xs={12} sm={12} md={4}>
-                            <div class="mx-auto">
+                            <div className="mx-auto">
                                 <div className={styles.userIcon}>
                                     <HiUserGroup/>
                                 </div>

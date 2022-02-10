@@ -1,7 +1,9 @@
+import { Route, Routes } from 'react-router-dom';
+import routes from './Components/Routes/Routes';
 import './App.css';
 import '../src/Assets/CSS/Partials/Responsive.css';
-import routes from './Components/Routes/Routes';
-import { Route, Routes } from 'react-router-dom';
+import React from 'react';
+
 
 
 function App() {

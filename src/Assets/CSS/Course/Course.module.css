@@ -21,3 +21,36 @@
     text-transform: capitalize;
     color: #282828;
 }
+.overviewArea{
+    list-style: none;
+    padding: 10px 35px;
+}
+.overviewItem{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 10px 0px;
+}
+.language h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #323232;
+    text-align: left;
+}
+.language h5 svg{
+    margin: 0px 15px 0px 0px;
+    color: #7E7E7E;
+}
+.bangla{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #7E7E7E;
+}

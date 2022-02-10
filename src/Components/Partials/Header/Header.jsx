@@ -15,7 +15,7 @@ const options = [
 const Header = () => {
     return (
         <>
-            <container fluid={true}>
+            <Container fluid={true}>
                 <div className=''>
                     <Container>
                         <div className={styles.HeaderContainer}>
@@ -50,7 +50,7 @@ const Header = () => {
                         </div>
                     </Container>
                 </div>
-            </container>
+            </Container>
         </>
     );
 };
